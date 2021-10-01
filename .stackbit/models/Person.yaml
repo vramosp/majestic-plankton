@@ -1,0 +1,32 @@
+type: data
+name: Person
+label: Person
+fields:
+  - type: string
+    name: id
+    label: ID
+  - type: string
+    name: firstName
+    label: First name
+    default: Hillary
+  - type: string
+    name: lastName
+    label: Last name
+    default: Ouse
+  - type: string
+    name: role
+    label: Role
+    default: Head Fisherman & Finance
+  - type: markdown
+    name: bio
+    label: Bio
+    default: This feature is the thing you were missing in your workflow, thank god we have it for you to use.
+  - type: model
+    name: image
+    label: Image
+    models: [ImageBlock]
+    default:
+      url: /images/hilary-ouse.jpg
+      altText: Head Fisherman & Finance
+  - type: string
+    name: elementId
