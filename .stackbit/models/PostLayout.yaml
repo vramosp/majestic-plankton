@@ -31,7 +31,6 @@ fields:
       groups:
         - sectionComponent
   default:
-    
     post:
       - content/pages/blog/post-one.md
     
