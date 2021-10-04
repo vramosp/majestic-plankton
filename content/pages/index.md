@@ -181,4 +181,26 @@ sections:
       - content/data/person-iwccdvk5f.json
       - content/data/person-bt3tr43pl.json
     type: FeaturedPeopleSection
+  - elementId: ''
+    colors: colors-a
+    width: wide
+    height: tall
+    topGap: medium
+    bottomGap: medium
+    contentWidth: large
+    contentAlignHoriz: left
+    contentAlignVert: middle
+    textAlign: left
+    variant: variant-a
+    badge:
+      elementId: ''
+      label: ''
+    title: Latest news
+    subtitle: Blog Feed Section Example
+    actions: []
+    posts:
+      - content/pages/blog/post-three.md
+      - content/pages/blog/post-two.md
+      - content/pages/blog/post-one.md
+    type: FeaturedPostsSection
 ---
