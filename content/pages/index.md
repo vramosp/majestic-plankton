@@ -55,6 +55,7 @@ sections:
       - content/pages/blog/post-two.md
       - content/pages/postlayout-knvwsoi4y.md
       - content/pages/postlayout-dtzwojo8x.md
+      - content/pages/postlayout-ta0n2bciz.md
   - type: TestimonialsSection
     variant: variant-b
     colors: colors-h
