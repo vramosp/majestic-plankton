@@ -30,3 +30,4 @@ fields:
       type: model
       groups:
         - sectionComponent
+  default:
