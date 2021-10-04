@@ -53,7 +53,6 @@ sections:
       - content/pages/blog/post-three.md
       - content/pages/blog/post-one.md
       - content/pages/blog/post-two.md
-      - content/pages/postlayout-53g5sy49q.md
       - content/pages/postlayout-yc6nden0y.md
   - type: TestimonialsSection
     variant: variant-b
