@@ -1,0 +1,32 @@
+type: page
+name: PostLayout
+label: Post
+layout: PostLayout
+fields:
+  - type: string
+    name: title
+    label: Title
+  - type: date
+    name: date
+    label: Date
+  - type: string
+    name: excerpt
+    label: Excerpt
+  - type: model
+    name: thumbImage
+    label: Thumbnail image
+    models: [ImageBlock]
+  - type: list
+    name: topSections
+    label: Top sections
+    items:
+      type: model
+      groups:
+        - sectionComponent
+  - type: list
+    name: bottomSections
+    label: Bottom sections
+    items:
+      type: model
+      groups:
+        - sectionComponent
